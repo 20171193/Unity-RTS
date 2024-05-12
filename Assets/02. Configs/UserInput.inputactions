@@ -1,0 +1,54 @@
+{
+    "name": "UserInput",
+    "maps": [
+        {
+            "name": "User",
+            "id": "b7ee6021-8bb2-44aa-a4a4-d93ed3b0a22b",
+            "actions": [
+                {
+                    "name": "LeftButton",
+                    "type": "PassThrough",
+                    "id": "87e7d781-3d43-4dbd-9eb7-3124e829d317",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightButton",
+                    "type": "Button",
+                    "id": "3c717831-ba5b-4226-8324-c8086d7fdc63",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1a11483c-1c05-4f2a-8a32-1f45d1d6dc60",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21935731-6f1a-47cf-9e5c-ec035ec4b092",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
